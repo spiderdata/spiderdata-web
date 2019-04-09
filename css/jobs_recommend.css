@@ -9,53 +9,84 @@
     background-color:rgba(0,0,0,0);
     position: absolute; /*设置个absolute全屏了*/
 }
-			a:link{ /*正常连接样式*/
-				   color:#8FBC8F; 
-				   text-decoration:underline; 
-				   text-decoration:none; 
-			} 
-			a:visited{/*定义已访问过的连接样式*/ 
-					  color:#00FF00; 
-					  text-decoration:none; 
-			} 
-			a:hover{ /*定义鼠标悬浮在连接上的样式*/
-			        color:#000000; 
-			        text-decoration:none; 
-			} 
-			a:active{/*定义鼠标点击连接时的样式*/
-					 color:#FFFFFF; 
-			         text-decoration:none; 
-			} 
-			#SE {
-				height: 80px;
-				background-color: #3C763D;
-				text-align: center;
-			}
-			#tag{
-				height: 500px;
-				background-color: #2B542C;
-				text-align: center;
-			}
-			#button_jobs_recommend{
-				height: 100px;
-				background-color: #204D74;
-				text-align: center;
-				
-			}
-				#button_jobs_recommend button{
-					width: 200px;
-					height: 40px;
-					font-size: 25px;
-					border-radius:5px;/*圆矩*/
-				}
-			#suitable_position{
-				height: 500px;
-				background-color: #F7ECB5;
-				text-align: center;
-			}
-				#suitable_position button{
-					width:500px;
-					height: 50px;
-					font-size: 25px;
-					border-radius:5px;/*圆矩*/
-				}
+#job_skills{
+	margin: 0 auto;
+	border-style:solid solid solid solid;
+	width: 40%;
+	height: 40%;
+	text-align: center;
+
+}
+table tr td{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+
+}
+font{
+	font-family:"黑体";
+	font-size: 20px;
+	font-style: normal;
+	
+}
+
+
+
+a:link{ /*正常连接样式*/
+	   color:#8FBC8F; 
+	   text-decoration:underline; 
+	   text-decoration:none; 
+} 
+a:visited{/*定义已访问过的连接样式*/ 
+		  color:#00FF00; 
+		  text-decoration:none; 
+} 
+a:hover{ /*定义鼠标悬浮在连接上的样式*/
+        color:#000000; 
+        text-decoration:none; 
+} 
+a:active{/*定义鼠标点击连接时的样式*/
+		 color:#FFFFFF; 
+         text-decoration:none; 
+} 
+#SE {
+	height: 80px;
+	background-color: #3C763D;
+	text-align: center;
+}
+#tag{
+	height: 500px;
+	background-color: #2B542C;
+	text-align: center;
+}
+#button_jobs_recommend{
+	height: 100px;
+	background-color: #204D74;
+	text-align: center;
+	
+}
+#button_jobs_recommend button{
+		width: 200px;
+		height: 40px;
+		font-size: 25px;
+		border-radius:5px;/*圆矩*/
+	}
+#suitable_position{
+	height: 500px;
+	background-color: #F7ECB5;
+	text-align: center;
+}
+#suitable_position a{
+		margin:  0 auto;
+		margin-top: 40px;
+		width:50%;
+		height: auto;
+		font-size: 25px;
+		/* display: block; */
+		display: none;
+		color:rgb(84, 144, 235); 
+		text-decoration:underline; 
+		text-decoration:none;
+		background-color: aqua;
+	
+	}

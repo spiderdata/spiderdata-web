@@ -35,6 +35,7 @@
 				height: 100px;
 				background-color: #2B542C;
 				text-align: center;
+				margin-bottom: 20px;
 			}
 				.Python,.Java,.C,.C_add,.PHP,.more,.C_sharp,.SQL,.R,.Go{
 					height:25px;
@@ -42,40 +43,54 @@
 					margin-right:30px;
 				}
 			#charts{
-				height: 100%;
+				margin: 0 auto ;
+				/* padding: 10px  10px; */
+				height: 400px;
+				width: 80%;
 				background-color: #ADADAD;
+				border-radius: 10%
 			}
 				#one_storey{
 					height: 440px;
 					background-color: #CCCCCC;
+					margin-bottom: 20px;
 				}
 					#one_storey_left{
-						width: 49.6%;
-						height: 100%;
+						width: 45%;
+						height: 80%;
 						display:inline-block;
 						background-color: #419641;
+						margin:42px 5px 10px 25px;
+						border-radius: 5%;
 					}
 					#one_storey_right{
 						float: right;
-						width: 49.6%;
-						height: 100%;
+						width: 45%;
+						height: 80%;
+						margin:42px 25px 10px 5px;
+						border-radius: 5%;
 						display:inline-block;
 						background-color: #8FBC8F;
+						
 					}
 				#two_storey{
 					height: 440px;
 					background-color: #C1E2B3;
 				}
 					#two_storey_left{
-						width: 49.6%;
-						height: 100%;
+						width: 45%;
+						height: 80%;
+						margin:42px 25px 10px 5px;
+						border-radius: 5%;
 						display:inline-block;
 						background-color: #8FBC8F;
 					}
 					#two_storey_right{
 						float: right;
-						width: 49.6%;
-						height: 100%;
+						width: 45%;
+						height: 80%;
+						margin:42px 25px 10px 5px;
+						border-radius: 5%;
 						display:inline-block;
 						background-color: #419641;
 					}
