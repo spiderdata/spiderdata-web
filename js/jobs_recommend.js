@@ -28,7 +28,7 @@ $(function () {
             var jobName = data['job']['job_name'];
             var jobUrl = data['job']['job_url'];
             console.log(data['job']);
-            jobRecommend.html(jobName).attr('href', jobUrl);
+            jobRecommend.html(jobName).attr('href', jobUrl).css('display', 'block');
         });
     });
 
