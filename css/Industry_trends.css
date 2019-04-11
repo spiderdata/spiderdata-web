@@ -1,114 +1,132 @@
 @charset "utf-8";
-*{
+* {
     margin: 0;
     padding: 0;
 }
-#all{
-    width:100%;
+
+#all {
+    width: 100%;
     height: 100%;
-    background-color:rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
     position: absolute; /*设置个absolute全屏了*/
 }
-			a:link{ /*正常连接样式*/
-				   color:#8FBC8F; 
-				   text-decoration:underline; 
-				   text-decoration:none; 
-			} 
-			a:visited{/*定义已访问过的连接样式*/ 
-					  color:#00FF00; 
-					  text-decoration:none; 
-			} 
-			a:hover{ /*定义鼠标悬浮在连接上的样式*/
-			        color:#000000; 
-			        text-decoration:none; 
-			} 
-			a:active{/*定义鼠标点击连接时的样式*/
-					 color:#FFFFFF; 
-			         text-decoration:none; 
-			} 
-			#SE {
-				height: 100px;
-				background-color: #3C763D;
-				text-align: center;
-			}
-			#tag{
-				height: 100px;
-				background-color: #2B542C;
-				text-align: center;
-				margin-bottom: 20px;
-			}
-				.Python,.Java,.C,.C_add,.PHP,.more,.C_sharp,.SQL,.R,.Go{
-					height:25px;
-					width:70px;
-					margin-right:30px;
-				}
-			#charts{
-				margin: 0 auto ;
-				/* padding: 10px  10px; */
-				height: 400px;
-				width: 80%;
-				background-color: #ADADAD;
-				border-radius: 10%
-			}
-				#one_storey{
-					height: 440px;
-					background-color: #CCCCCC;
-					margin-bottom: 20px;
-				}
-					#one_storey_left{
-						width: 45%;
-						height: 80%;
-						display:inline-block;
-						background-color: #419641;
-						margin:42px 5px 10px 25px;
-						border-radius: 5%;
-					}
-					#one_storey_right{
-						float: right;
-						width: 45%;
-						height: 80%;
-						margin:42px 25px 10px 5px;
-						border-radius: 5%;
-						display:inline-block;
-						background-color: #8FBC8F;
-						
-					}
-				#two_storey{
-					height: 440px;
-					background-color: #C1E2B3;
-				}
-					#two_storey_left{
-						width: 45%;
-						height: 80%;
-						margin:42px 25px 10px 5px;
-						border-radius: 5%;
-						display:inline-block;
-						background-color: #8FBC8F;
-					}
-					#two_storey_right{
-						float: right;
-						width: 45%;
-						height: 80%;
-						margin:42px 25px 10px 5px;
-						border-radius: 5%;
-						display:inline-block;
-						background-color: #419641;
-					}
-				#three_storey{
-					height: 440px;
-					background-color: #F0AD4E;
-				}
-					#three_storey_left{
-						width: 49.6%;
-						height: 100%;
-						display:inline-block;
-						background-color: #419641;
-					}
-					#three_storey_right{
-						float: right;
-						width: 49.6%;
-						height: 100%;
-						display:inline-block;
-						background-color: #8FBC8F;
-					}
+
+a:link { /*正常连接样式*/
+    color: #8FBC8F;
+    text-decoration: underline;
+    text-decoration: none;
+}
+
+a:visited { /*定义已访问过的连接样式*/
+    color: #00FF00;
+    text-decoration: none;
+}
+
+a:hover { /*定义鼠标悬浮在连接上的样式*/
+    color: #000000;
+    text-decoration: none;
+}
+
+a:active { /*定义鼠标点击连接时的样式*/
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#top {
+    height: 100px;
+    background-color: #3C763D;
+    text-align: center;
+}
+
+#tag {
+    height: 100px;
+    background-color: #2B542C;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Python, .Java, .C, .C_add, .PHP, .more, .C_sharp, .SQL, .R, .Go {
+    height: 25px;
+    width: 70px;
+    margin-right: 30px;
+}
+
+#charts {
+    margin: 0 auto;
+    /* padding: 10px  10px; */
+    height: 400px;
+    width: 80%;
+    background-color: #ADADAD;
+    border-radius: 10%
+}
+
+#one_storey {
+    height: 440px;
+    background-color: #CCCCCC;
+    margin-bottom: 20px;
+}
+
+#one_storey_left {
+    width: 45%;
+    height: 80%;
+    display: inline-block;
+    background-color: #419641;
+    margin: 42px 5px 10px 25px;
+    border-radius: 5%;
+}
+
+#one_storey_right {
+    float: right;
+    width: 45%;
+    height: 80%;
+    margin: 42px 25px 10px 5px;
+    border-radius: 5%;
+    display: inline-block;
+    background-color: #8FBC8F;
+
+}
+
+#two_storey {
+    height: 440px;
+    background-color: #C1E2B3;
+}
+
+#two_storey_left {
+    width: 45%;
+    height: 80%;
+    margin: 42px 25px 10px 5px;
+    border-radius: 5%;
+    display: inline-block;
+    background-color: #8FBC8F;
+}
+
+#two_storey_right {
+    float: right;
+    width: 45%;
+    height: 80%;
+    margin: 42px 25px 10px 5px;
+    border-radius: 5%;
+    display: inline-block;
+    background-color: #419641;
+}
+
+#three_storey {
+    height: 440px;
+    background-color: #F0AD4E;
+}
+
+#three_storey_left {
+    width: 49.6%;
+    height: 100%;
+    display: inline-block;
+    background-color: #419641;
+}
+
+#three_storey_right {
+    float: right;
+    width: 49.6%;
+    height: 100%;
+    display: inline-block;
+    background-color: #8FBC8F;
+}
 
