@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>登录</title>
-		<link href="css/login.css" rel="stylesheet" type="text/css"/>
-
-	</head>
-	<body>
-		<div class="table1">	
-			<h1><strong>Spider</strong>  Login Form</h1>	
-			<div id="Rounded_rectangle">
-				<from id="Form" action="">
-						<table width="362" border="0" cellspacing="0" cellpadding="0">
-						  <tr>
-						    <td width="138">姓名：</td>
-						    <td width="218"><input type="text" name="username" id="username"></td>
-						  </tr>
-						  <tr>
-						    <td>密码：</td>
-						    <td><input type="password" name="password" id="password"></td>
-						  </tr>
-						  <tr>
-						    <td><a href="login.html"><button type="button" id="get">提交</button></a></td>
-						    <td><a href=""><input type="button" value="重置"></a></td>
-						  </tr>
-						</table>
-						
-				</from>
-				
-			</div>
-		</div>
-		
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link href="css/login.css" rel="stylesheet" type="text/css"/>
+    <!--<script src="js/jquery.min.js"></script>-->
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/base.js"></script>
+    <script src="js/login.js"></script>
+</head>
+<body>
+<div class="table1">
+    <h1><strong>Spider</strong> Login Form</h1>
+    <div id="Rounded_rectangle">
+        <from id="Form" action="">
+            <table width="362" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td width="138">姓名：</td>
+                    <td width="218"><input type="text" name="username"
+                                           id="username"></td>
+                </tr>
+                <tr>
+                    <td>密码：</td>
+                    <td><input type="password" name="password" id="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" id="get">提交</button>
+                    </td>
+                    <td><a href=""><input type="button" value="重置"></a></td>
+                </tr>
+            </table>
+        </from>
+    </div>
+</div>
+</body>
 </html>
