@@ -1,3 +1,7 @@
+$(function () {
+	updateTop();
+});
+
 function parseAvgSalary(data){
 	let jobs = data['body']['jobs'];
 	let pythonInfo = jobs['python'];

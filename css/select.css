@@ -1,61 +1,111 @@
 @charset "utf-8";
-*{
+* {
     margin: 0;
     padding: 0;
 }
-#all{
-    width:100%;
+
+#all {
+    width: 100%;
     height: 100%;
-    background-color:rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
     position: absolute; /*设置个absolute全屏了*/
 }
-			a:link{ /*正常连接样式*/
-				   color:#8FBC8F; 
-				   text-decoration:underline; 
-				   text-decoration:none; 
-			} 
-			a:visited{/*定义已访问过的连接样式*/ 
-					  color:#00FF00; 
-					  text-decoration:none; 
-			} 
-			a:hover{ /*定义鼠标悬浮在连接上的样式*/
-			        color:#000000; 
-			        text-decoration:none; 
-			} 
-			a:active{/*定义鼠标点击连接时的样式*/
-					 color:#FFFFFF; 
-			         text-decoration:none; 
-			}
-#SE {
-				height: 80px;
-				background-color: #3C763D;
-				text-align: center;
-			}
-#top_select{
-	height: 80px;
-	background-color: #00FF00;
-	text-align: center;
+
+a:link { /*正常连接样式*/
+    color: #8FBC8F;
+    text-decoration: underline;
+    text-decoration: none;
 }
-#urls{
-	height: 220px;
-	width: 85%;
-	background-color: #2B542C;
-	text-align: center;
+
+a:visited { /*定义已访问过的连接样式*/
+    color: #00FF00;
+    text-decoration: none;
 }
-#down{
-	background-color: #969696;
-	height: 100%;
+
+a:hover { /*定义鼠标悬浮在连接上的样式*/
+    color: #000000;
+    text-decoration: none;
 }
-	#down_left{
-		height: 100%;
-		width: 49.5%;
-		display:inline-block;
-		background-color: #E38D13;
-	}
-	#down_right{
-		height: 100%;
-		width:49.5%;
-		display:inline-block;
-		background-color: #8A6D3B;
-		float: right;
-	}
+
+a:active { /*定义鼠标点击连接时的样式*/
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#top {
+    height: 80px;
+    background-color: #3C763D;
+    text-align: center;
+}
+
+#top_select {
+    height: 80px;
+    background-color: #00FF00;
+    text-align: center;
+}
+
+#urls {
+    height: 220px;
+    width: 85%;
+    background-color: #2B542C;
+    text-align: center;
+}
+
+#down {
+    background-color: #969696;
+    height: 100%;
+}
+
+#down_left {
+    height: 100%;
+    width: 49.5%;
+    display: inline-block;
+    background-color: #E38D13;
+}
+
+#down_right {
+    height: 100%;
+    width: 49.5%;
+    display: inline-block;
+    background-color: #8A6D3B;
+    float: right;
+}
+
+#userList, #userList > .title, #userList > .list > .user {
+    border-radius: 8px;
+}
+
+#userList {
+    width: 200px;
+    /*height: 500px;*/
+    max-height: 500px;
+    background-color: orange;
+    position: fixed;
+    right: 0;
+    top: 180px;
+    padding: 10px 0;
+    overflow: auto;
+    display: none;
+}
+
+#userList .title {
+    width: 90%;
+    margin: 5px auto;
+    text-align: center;
+    background-color: #71C671;
+    padding: 5px 0;
+    cursor: default;
+}
+
+#userList .list .user {
+    width: 90%;
+    height: 40px;
+    background: green;
+    margin: 5px auto;
+    text-align: center;
+    line-height: 40px;
+}
+
+#userList .list .user:hover {
+    cursor: pointer;
+}

@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>搜索引擎</title>
-		<link href="css/select.css" rel="stylesheet" type="text/css"/>
-	</head>
-	<body>
-		<div id="all">
-			<div id="SE">
-				<p align="right"><a href="login.html">个人中心</a>
-  			 					 <a href="sign_in.html">退出</a>
-  			    </p>
-			</div>
-			<div id="top_select" t>
-				<input type="text">
-				<input type="button" onclick="" value="搜索">
-			</div>
-			<div id="urls">
-				<a href="">相关文章1.后台获取文章tag</a></br>
-				<a href="">相关文章1.后台获取文章tag</a></br>
-				<a href="">相关文章1.后台获取文章tag</a></br>
-				<a href="">相关文章1.后台获取文章tag</a>
-			</div>
-			<div id="down">
-				<div id="down_left">
-					
-				</div>
-				<div id="down_right">
-					
-				</div>
-			</div>
-		</div>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <title>搜索引擎</title>
+    <link href="css/select.css" rel="stylesheet" type="text/css"/>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/base.js"></script>
+    <script src="js/select.js"></script>
+</head>
+<body>
+<div id="all">
+    <div id="top">
+        <p align="right">
+            <span class="userLabel"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="login.html" class="left">登录</a>&nbsp;&nbsp;
+            <a href="sign_in.html" class="right">注册</a>&nbsp;&nbsp;
+        </p>
+    </div>
+    <div id="top_select">
+        <input type="text" class="searchInput">
+        <input type="button" value="搜索" class="searchBtn">
+    </div>
+    <div id="urls">
+        <!--<a href="">相关文章1.后台获取文章tag</a></br>-->
+        <!--<a href="">相关文章1.后台获取文章tag</a></br>-->
+        <!--<a href="">相关文章1.后台获取文章tag</a></br>-->
+        <!--<a href="">相关文章1.后台获取文章tag</a>-->
+    </div>
+    <div id="userList">
+        <div class="title">
+            这些人搜索过相同内容<br>
+            一键发起聊天
+        </div>
+        <div class="list">
+            <!--<div class="user">Tom</div>-->
+            <!--<div class="user">Tom</div>-->
+            <!--<div class="user">Tom</div>-->
+            <!--<div class="user">Tom</div>-->
+            <!--<div class="user">Tom</div>-->
+        </div>
+    </div>
+    <!--<div id="down">-->
+    <!--<div id="down_left">-->
+    <!---->
+    <!--</div>-->
+    <!--<div id="down_right">-->
+    <!---->
+    <!--</div>-->
+    <!--</div>-->
+</div>
+</body>
 </html>
