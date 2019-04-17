@@ -25,9 +25,9 @@ $(function () {
             'skill': userSkillList
         };
         postURL(url, data, function (data) {
-            var jobName = data['job']['job_name'];
-            var jobUrl = data['job']['job_url'];
-            console.log(data['job']);
+            var jobName = data['body']['job']['job_name'];
+            var jobUrl = data['body']['job']['job_url'];
+            console.log(data['body']['job']);
             jobRecommend.html(jobName).attr('href', jobUrl).css('display', 'block');
         });
     });
