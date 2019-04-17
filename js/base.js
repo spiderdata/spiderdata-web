@@ -34,12 +34,14 @@ function postURL(url, data, callback) {
         dataType: "json",
         success: function (data) {
             console.log('postURL: ', url, ' result: ', data);
-            callback(data['body']);
+            // callback(data['body']);
+            callback(data);
         },
         error: function (data, textStatus, errorThrown) {
             console.log(data['responseJSON']);
             console.log(textStatus);
             console.log("请求失败：" + errorThrown);
+            callback(data['responseJSON']);
         }
     });
 }

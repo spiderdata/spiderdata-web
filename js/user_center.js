@@ -320,7 +320,7 @@ $(function () {
     }
 
     function msGetDataFromServer(data) {
-        var messages = data['messages'];
+        var messages = data['body']['messages'];
 
         if (messages.length) {
             // 消息列表不为空的时候清空面板

@@ -30,8 +30,8 @@ $(function () {
         };
 
         function refreshPage(data) {
-            var posts = data['posts'];
-            var user_list = data['user_list'];
+            var posts = data['body']['posts'];
+            var user_list = data['body']['user_list'];
 
             // 将查询到的结果添加到页面中
             urls.html('');

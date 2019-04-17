@@ -7,33 +7,41 @@ body {
     line-height: 30px;
     text-align: center;
 }
-.table1{
-	
+
+.table1 {
+
     height: 100%;
     width: 100%;
     position: absolute;
     top: 0px;
     bottom: 0px;
-    background:url(../img/1.jpg)
-   }
-	h1 {
-	margin-top: 40px;
-	font-size: 38px;
+    background: url(../img/1.jpg)
+}
+
+h1 {
+    margin-top: 40px;
+    font-size: 38px;
     color: #FFFFFF;
-    line-height: 50px; 
+    line-height: 50px;
     padding-top: 90px;
 }
+
 #Rounded_rectangle {
-	    position:absolute;
-	    left: 31%;
-	    top: 30%;
-		border-radius: 5px; /*让边框变为圆角*/
-		border: 1px solid #F5F5F5; /*让边框变为1px宽度，直线，#F5F5F5颜色*/
-		width: 600px;
-		height: 350px;		
-		background: #F5F5F5;
+    position: absolute;
+    left: 31%;
+    top: 30%;
+    border-radius: 5px; /*让边框变为圆角*/
+    border: 1px solid #F5F5F5; /*让边框变为1px宽度，直线，#F5F5F5颜色*/
+    width: 600px;
+    height: 350px;
+    background: #F5F5F5;
 }
 
-
+#errInfo {
+    height: 24px;
+    display: block;
+    font-size: 12px;
+    color: red;
+}
 
 
