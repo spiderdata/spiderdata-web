@@ -6,7 +6,10 @@
 #all{
     width:100%;
     height: 100%;
-    background-color:rgba(0,0,0,0);
+    /*background-color:rgba(0,0,0,0);*/
+	background-image: url('../img/选区_001.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
     position: absolute; /*设置个absolute全屏了*/
 }
 			a:link{ /*正常连接样式*/
@@ -15,19 +18,19 @@
 				   text-decoration:none; 
 			} 
 			a:visited{/*定义已访问过的连接样式*/ 
-					  color:#00FF00; 
-					  text-decoration:none; 
+					  /*color:#00FF00; */
+					  text-decoration:none;
 			} 
 			a:hover{ /*定义鼠标悬浮在连接上的样式*/
-			        color:#000000; 
+			        /*color:#000000; */
 			        text-decoration:none; 
 			} 
 			a:active{/*定义鼠标点击连接时的样式*/
-					 color:#FFFFFF; 
+					 /*color:#FFFFFF; */
 			         text-decoration:none; 
 			}
 #SE {
 				height: 80px;
-				background-color: #3C763D;
+				/*background-color: #3C763D;*/
 				text-align: center;
 			}

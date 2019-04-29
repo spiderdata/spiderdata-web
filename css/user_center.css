@@ -7,7 +7,10 @@
 #all {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0);
+    /*background-color: rgba(0, 0, 0, 0);*/
+    background-image: url("../img/选区_001.png");
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
     position: absolute; /*设置个absolute全屏了*/
 }
 
@@ -34,7 +37,7 @@ a:active { /*定义鼠标点击连接时的样式*/
 
 #top {
     height: 80px;
-    background-color: #3C763D;
+    /*background-color: #3C763D;*/
     text-align: center;
 }
 
@@ -43,13 +46,13 @@ a:active { /*定义鼠标点击连接时的样式*/
     margin: 40px auto;
     width: 1000px;
     height: 600px;
-    background-color: orange;
+    background-color: rgba(255,255,255,0.1);
 }
 
 #main > .left {
     width: 200px;
     height: 550px;
-    background-color: green;
+    background-color: rgba(255,255,255,0.1);
     float: left;
     margin-top: 25px;
     margin-left: 25px;
@@ -57,7 +60,7 @@ a:active { /*定义鼠标点击连接时的样式*/
 
 #main > .left p {
     text-align: center;
-    background-color: orange;
+    background-color: rgba(255,255,255,0.1);
     width: 160px;
     margin: 20px auto;
 }
@@ -65,7 +68,7 @@ a:active { /*定义鼠标点击连接时的样式*/
 #main > .right {
     width: 730px;
     height: 550px;
-    background-color: green;
+    background-color: rgba(255,255,255,0.1);
     float: right;
     top: 25px;
     margin-top: 25px;
@@ -75,7 +78,7 @@ a:active { /*定义鼠标点击连接时的样式*/
 #main > .right .content {
     width: 680px;
     height: 500px;
-    background-color: orange;
+    background-color: rgba(255,255,255,0.1);
     margin: 25px auto;
     position: relative;
 }
@@ -93,7 +96,7 @@ a:active { /*定义鼠标点击连接时的样式*/
     margin-left: 90px;
     width: 500px;
     height: 25px;
-    background-color: green;
+    background-color: rgba(0,0,0,0.1)
 }
 
 #userInfo .left {
@@ -153,7 +156,7 @@ a:active { /*定义鼠标点击连接时的样式*/
 #userMsg .msgs {
     width: 620px;
     height: 420px;
-    background-color: green;
+    background-color: rgba(0,0,0,0.1);
     float: left;
     margin-top: 15px;
     margin-left: 30px;
