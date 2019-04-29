@@ -6,7 +6,10 @@
 #all{
     width:100%;
     height: 100%;
-    background-color:rgba(0,0,0,0);
+    /*background-color:rgba(0,0,0,1);*/
+	background-image: url("../img/选区_001.png");
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
     position: absolute; /*设置个absolute全屏了*/
 }
 			a:link{ /*正常连接样式*/
@@ -28,10 +31,11 @@
 			}
 #SE {
 				height: 80px;
-				background-color: #3C763D;
+				/*background-color: #3C763D;*/
 				text-align: center;
 			}
 			form{
+
 				font-size: 20px;
 				width:100%;
 				text-align:center;

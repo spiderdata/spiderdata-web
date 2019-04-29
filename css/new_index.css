@@ -5,13 +5,23 @@
 #overall{
     width:100%;
     height: 100%;
-    background-color:rgba(0,0,0,0);
+    /*background-color:rgba(0,0,0,0);*/
+	background-image: url('../img/选区_001.png');
+	/*opacity:0.4;*/
+    /*filter:alpha(opacity=40);*/
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
     position: absolute; /*设置个absolute全屏了*/
 }
 #top{
 	height: 150px;
-	background-color: #3C763D;
+	/*background-color: #FF9999;*/
+	/*background-image: url("../img/2.jpg");*/
+	/*background-size: 100%  398%;*/
+
+	/*background-size: h;*/
 }
+
 a:link{ /*正常连接样式*/
 				   color:#8FBC8F; 
 				   text-decoration:underline; 
@@ -33,30 +43,35 @@ a:link{ /*正常连接样式*/
 #center{
 	text-align: center;
 	height: 150px;
-	background-color: #5CB85C;
-	
+	/*background-color: #5CB85C;*/
+	/*background-image: url("../img/2.jpg");*/
+
+
 }	
 #down_button{
 	text-align: center;
 	height: 100px;
-	background-color:#8FBC8F;
+	/*background-color:#8FBC8F;*/
 }	
 #down{
-	height: 100%;
-	background-color: #204D74;
-	
+	/*height: 100%;*/
+	height: auto;
+	/*background-color: #204D74;*/
+
 }
 #down_left_div{
-	width: 49.5%;
-	height: 56%;
+	width: 480px;
+	height: 450px;
+	margin-left: 450px;
 	display:inline-block;
-	background-color: #8A6D3B;
+	/*background-color: #8A6D3B;*/
 }
 #down_right_div{
 	
 	float: right;
-	width: 49.5%;
-	height: 56%;
+	width: 480px;
+	margin-right: 450px;
+	height: 450px;
 	display:inline-block;
-	background-color: #D58512;
+	/*background-color: #D58512;*/
 }

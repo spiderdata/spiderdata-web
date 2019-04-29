@@ -7,7 +7,12 @@
 #all {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0);
+    background-image: url('../img/选区_001.png');
+	/*opacity:0.4;*/
+    /*filter:alpha(opacity=40);*/
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    /*background-color: rgba(0, 0, 0, 0);*/
     position: absolute; /*设置个absolute全屏了*/
 }
 
@@ -58,19 +63,19 @@ a:active { /*定义鼠标点击连接时的样式*/
 
 #top {
     height: 80px;
-    background-color: #3C763D;
+    /*background-color: #3C763D;*/
     text-align: center;
 }
 
 #tag {
     height: 500px;
-    background-color: #2B542C;
+    /*background-color: #2B542C;*/
     text-align: center;
 }
 
 #button_jobs_recommend {
     height: 100px;
-    background-color: #204D74;
+    /*background-color: #204D74;*/
     text-align: center;
 
 }
@@ -84,7 +89,7 @@ a:active { /*定义鼠标点击连接时的样式*/
 
 #suitable_position {
     height: 500px;
-    background-color: #F7ECB5;
+    /*background-color: #F7ECB5;*/
     text-align: center;
 }
 
@@ -99,6 +104,6 @@ a:active { /*定义鼠标点击连接时的样式*/
     color: rgb(84, 144, 235);
     text-decoration: underline;
     text-decoration: none;
-    background-color: aqua;
+    /*background-color: aqua;*/
 
 }
